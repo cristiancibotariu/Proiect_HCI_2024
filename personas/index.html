@@ -1,0 +1,237 @@
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta name="publisher" content="blankdots.com">
+    <meta name="author" content="Stefan Negru">
+    <meta name="keywords" content="personas, template">
+    <meta name="description" content="Personas Template with microdata">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Personas Template</title>
+    </head>
+    
+    <body>
+    <header>
+        <h1>Personas Template</h1>
+        <span id="logo"><a href="http://www.w3.org/html/logo/">
+    <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="83" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+    </a></span>
+    
+    </header>
+    <section>
+        <h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
+        <article itemscope="" itemtype="http://schema.org/Person" class="persona">
+            <div class="personaInfo">
+                <h3>Type: Primary</h3>
+                <figure>
+                    <img itemprop="image" src="./images/Ionut.webp" style="width: 150px; height: 150px;" alt="persona image">
+                </figure>
+                <div class="personaBackground">				
+                    <h4>Name: <span itemprop="givenName"></span>Ionut <span itemprop="familyName">Popescu</span></h4>
+                        <h5>Background</h5>
+                        <ul>
+                            <li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">10/23/1990</time></li>
+                            <li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+                            <li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+                            <li itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Continental</span>, <span itemprop="jobTitle">Software Engineer</span></li>
+                            <!-- <li itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">Palo Alto High School</span> (if required)</li>
+                            <li><strong>Technology Level:</strong>(if required)</li> -->
+                        </ul>
+                </div>
+            </div>
+            <div class="personaDetails">
+                <div class="detailsLeft">
+                    <div class="leftGroup">
+                        <h5>Main Points</h5>
+                        <!-- <p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p> -->
+                        <ul>
+                            <li>Utilizator de diverse produse cu scopul de a monitoriza si imbunatati starea psihica;</li>
+                            <!-- <li>Dislikes about certain aspects;</li> -->
+                            <li>Afectat de anxietate si niveluri ridicate de stres zilnic;</li>
+                            <li>Angajat intr-un mediu stresant ce promoveaza problemele psihice;</li>
+                            <!-- <li>Social connections;</li> -->
+                            <li>Țelul acestui utilizator este să găsească o aplicație cu adevărat utilă în a îmbunătăți starea sa psihică.</li>
+                        </ul>
+                    </div>
+                    <div class="leftGroup">
+                        <h5>Goals</h5>
+                        <!-- <p>Goals are the reasons users perform tasks, not the tasks.</p> -->
+                        <ul>
+                            <li>Practical Goals:</li>
+                            <li>Personal Goals:</li>
+                            <li>Business Goals:</li>
+                        </ul>
+                    </div>
+                    <div class="leftGroup">
+                        <h5>Frustrations and Pain Points</h5>
+                        <!-- <p>Some of the difficulties the user has with the product.</p> -->
+                        <ul>
+                            <li>Statul peste program la birou;</li>
+                            <li>Obligativitatea de a lucra onsite;</li>
+                            <li>Traficul din oras;</li>
+                            <li>Prezenta sufocanta a reclamelor in aplicatiile de zi cu zi;</li>
+                            <li>Sistemul de notificari este necostumizabil;</li>
+                            <!-- <li>Problems with the product: slowness, hard to use, no feedback provided;</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div itemprop="description" class="detailsRight">
+                    <h5>Detailed Description</h5>
+                    <p>
+                        Ionut este un angajat tipic intr-un mediu corporativ, el lucreaza ca si software developer, o pozitie stresanta ce evolueaza incontinuu. Datorita acestui
+                        mediu de lucru, Ionut a dezvoltat probleme cum ar fi anxietatea si niveluri ridicate de stres pe parcursul zilei. Colegii sunt si ei de vina, fiind o sursa
+                        aditionala de stres.
+                    </p>
+                    <p> 
+                        In aceste circumstante, Ionut a inceput sa foloseasca diverse aplicatii ce s-ar presupune ca ar trebui sa-l ajute cu administrarea emotiilor sale si
+                        mentinerea calmului pe parcursul zilei. In schimb, multe dintre aceste aplicatii s-au dovedit a fi inutile si unele chiar iritandu-l si mai tare.
+                    </p>
+                    <p>Asadar Ionut cauta o aplicatie care:</p>
+                    <ul>
+                            <li>Sa-l ajute sa se simta mai bine din punct de vedere emotional;</li>
+                            <li>Sa fie usor si placut de folosit</li>
+                            <li>Sa-si poata vedea progresul pe o perioada mai lunga de timp</li>
+                            <li>Sa-si poata monitoriza nivelul de stres</li>
+                            
+                    </ul>
+               </div>
+            </div>
+            <div class="personaScenarios">
+                <h5>Scenarios</h5>
+                <p> Produsul MeHe este folosit in imbunatatirea si monitorizarea parametrilor ce afecteaza starea noastra psihica zilnic. Astfel, un utilizator precum
+                    Ionut va folosi aplicatia in situatii cum ar fi: o situatie il predispune la un nivel agravant de stres iar aplicatia il notifica daca aceasta este
+                    folosita pe un device cum ar fi un smartwatch, care mai apoi ii poate recomanda cateva rutine simple pentru a se simti mai bine. Fiind un persona principal
+                    trebuie sa presupunem ca Ionut are un anumit nivel de probleme de mental health. Astfel acesta pe langa aceste alerte in cazuri speciale, va gasi utila si
+                    sectiunea cu informatiile detaliate despre nivelurile de anxietate/stres de pe parcursul zilei, diferite tips&tricks etc.
+                </p>
+            </div>
+            <div class="otherDetails">
+                <h5>Other Details</h5>
+                <p>Other details regarding this persona.</p>
+            </div>
+        </article>
+        <article itemscope="" itemtype="http://schema.org/Person" class="persona">
+            <div class="personaInfo">
+                <h3>Type: Supplemental</h3>
+                <figure>
+                    <img itemprop="image" src="./images/Mihaela.webp" style="width: 150px; height: 150px;" alt="persona image">
+                </figure>
+                <div class="personaBackground">				
+                    <h4>Name: <span itemprop="givenName">Mihaela</span> <span itemprop="familyName">Ionescu</span></h4>
+                        <h5>Background</h5>
+                        <ul>
+                            <li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">08/14/1985</time></li>
+                            <li><strong>Gender:</strong> <span itemprop="gender">Female</span></li>
+                            <li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+                            <li itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Propriul cabinet</span>, <span itemprop="jobTitle">Doctor Psiholog</span></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="personaDetails">
+                <div class="detailsLeft">
+                    <div class="leftGroup">
+                        <h5>Main Points</h5>
+                        <p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
+                        <ul>
+                            <li>General user of diverse apps;</li>
+                            <li>Is curious on how this app could help her and her patients;</li>
+                        </ul>
+                    </div>
+                    <div class="leftGroup">
+                        <h5>Goals</h5>
+                        <p>Goals are the reasons users perform tasks, not the tasks.</p>
+                        <ul>
+                            <li>The main goal of this persona is to monitor and act upon the results given by the app.</li>
+                        </ul>
+                    </div>
+                    <div class="leftGroup">
+                        <h5>Frustrations and Pain Points</h5>
+                        <p>Some of the difficulties the user has with the product.</p>
+                        <ul>
+                            <li>UI intuitiveness;</li>
+                            <li>Support for colorblind users;</li>
+                            <li>Day to day bugs;</li>
+                            <li>Lack of support.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div itemprop="description" class="detailsRight">
+                    <h5>Detailed Description</h5>
+                    <p> This persona is defined as a supplemental one because while this apps targets people with mental health issues and such, the needs of this persona are met without being targeted specifically.</p>
+                    <p> Mihaela is a day to day psychologist, she recently heard through social media of a new platform that she thought could help her do her job better. So, she decided to ask her patients whom some of
+                        reluctantly agreed, and here she is, a supplemental user of our new app!
+                    </p>
+                </div>
+            </div>
+            <div class="personaScenarios">
+                <h5>Scenarios</h5>
+                <p>Mihaela has acces to various longer term between-sessions dashboards that she can discuss with her patients including moments where the patients may have had spikes in anxiety or stress. Aswell as 
+                    having acces to the activity history for users. </p>
+            </div>
+        </article>	
+        <article itemscope="" itemtype="http://schema.org/Person" class="persona">
+            <div class="personaInfo">
+                <h3>Type: Secondary</h3>
+                <figure>
+                    <img itemprop="image" src="./images/average_joe.jpg" style="width: 150px; height: 150px;" alt="persona image">
+                </figure>
+                <div class="personaBackground">				
+                    <h4>Name: <span itemprop="givenName">Joe</span> <span itemprop="familyName">Jones</span></h4>
+                        <h5>Background</h5>
+                        <ul>
+                            <li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">04/08/1995</time></li>
+                            <li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+                            <li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">New York, U.S.A.</span></li>
+                            <li itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">7-Eleven</span>, <span itemprop="jobTitle">Cashier</span></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="personaDetails">
+                <div class="detailsLeft">
+                    <div class="leftGroup">
+                        <h5>Main Points</h5>
+                        <p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
+                        <ul>
+                            <li>Various app consumer on a day to day basis.</li>
+                            <li>Perfectly sane person. Doesn't have any specific mental health issues.</li>
+                        </ul>
+                    </div>
+                    <div class="leftGroup">
+                        <h5>Goals</h5>
+                        <p>Goals are the reasons users perform tasks, not the tasks.</p>
+                        <ul>
+                            <li>Curious of his mental health stats;</li>
+                            <li>Eager to improve whatever point of his life;</li>
+                        </ul>
+                    </div>
+                    <div class="leftGroup">
+                        <h5>Frustrations and Pain Points</h5>
+                        <p>Some of the difficulties the user has with the product.</p>
+                        <ul>
+                            <li>Annoyed by the neverending stream of commercials and ads on internet;</li>
+                            <li>Sometimes pushed of the edge by various customers that come in to his workplace</li>
+                        </ul>
+                    </div>
+                </div>
+                <div itemprop="description" class="detailsRight">
+                    <h5>Detailed Description</h5>
+                    <p>Joe is well, an average joe, he's a regular person that works in a simple 7-Eleven store in New York, he doesn't have any specific mental health issues, doesn't suffer from elevated levels of 
+                        stress or anxiety. This makes him a perfect candidate for this position as a secondary user on our platform. He isn't exactly the type of person that we target with this project but he's just
+                        as much of a user as anyone else, and a perfect opportunity to see how someone without issues uses the app and how.</p>
+                </div>
+            </div>
+            <div class="personaScenarios">
+                <h5>Scenarios</h5>
+                <p>Even if Joe is not the primary persona for our app he is gonna use our app in a similar way. Ok, so imagine Joe doesn't have stress issues, that doesn't mean that once in a while he won't receive
+                    a stress alert due to his customers or maybe his boss even, so he is also gonna use the quick ways to calm down that the app provides. And even tough only out of curiosity, he's still gonna use the
+                    long term dashboards, maybe as a conversation starter :). But aside from those situations, Joe's usage should be relatively minimal compared to the primary personas.
+                </p>
+            </div>
+        </article>		
+    </section>
+    
+    <footer id="footer">
+        <span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png"></a></span>
+    </footer>
+    
+    
+    </body></html>
